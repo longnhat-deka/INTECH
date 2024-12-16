@@ -1,0 +1,298 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+  background-image: url('image/background.jpg'); /* Đường dẫn đến ảnh */
+  background-size: cover; /* Đảm bảo ảnh bao phủ toàn bộ header */
+  background-position: center; /* Đặt ảnh vào trung tâm */
+  color: white; /* Văn bản trắng để nổi bật trên nền */
+}
+
+.logo-container {
+display: flex;
+align-items: center; /* Căn giữa logo và tiêu đề theo chiều dọc */
+justify-content: center; /* Căn giữa toàn bộ logo và tiêu đề */
+gap: 20px; /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.logo-wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100px; /* Kích thước khung logo */
+height: 100px;
+border-radius: 50%; /* Tạo hình tròn */
+box-shadow: 0 4px 8px rgb(0, 195, 255); /* Đổ bóng làm nổi bật */
+}
+
+.logo {
+width: 70%; /* Logo chiếm 70% diện tích khung */
+height: 70%;
+object-fit: contain; /* Đảm bảo logo giữ nguyên tỉ lệ */
+background: transparent; /* Đảm bảo nền logo trong suốt */
+border-radius: 50%; /* Nếu cần bo tròn thêm */
+}
+
+.title {
+font-size: 2.5rem; /* Kích thước tiêu đề */
+font-weight: bold;
+margin: 0;
+}
+
+
+/* Đáp ứng cho thiết bị nhỏ */
+@media screen and (max-width: 768px) {
+.logo-container {
+  flex-direction: column; /* Xếp logo và tiêu đề theo cột */
+}
+
+.logo-wrapper {
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  font-size: 1.8rem; /* Giảm kích thước tiêu đề */
+}
+}
+
+
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+
+
+/* Bố cục chung của danh sách sản phẩm */
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Đảm bảo các sản phẩm tự xuống dòng khi không đủ không gian */
+  gap: 16px; /* Khoảng cách giữa các sản phẩm */
+  justify-content: center; /* Căn giữa sản phẩm */
+}
+
+/* Hộp sản phẩm */
+.product {
+  flex: 1 1 calc(25% - 16px); /* Chiếm 25% chiều rộng trừ khoảng cách giữa các sản phẩm */
+  max-width: calc(25% - 16px);
+  box-sizing: border-box;
+  background-color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+/* Hiệu ứng khi hover */
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto; /* Đảm bảo tỷ lệ ảnh không bị thay đổi */
+  object-fit: contain; /* Hiển thị toàn bộ hình ảnh mà không cắt xén */
+  background-color: #f9f9f9; /* Tùy chỉnh màu nền để ảnh nổi bật hơn */
+}
+
+.product-info {
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-info h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.product-info p {
+  color: #00d4f0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-info button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(211, 98, 5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-info button:hover {
+  background-color: #00ffff;
+}
+
+/* Tương thích với màn hình nhỏ */
+@media screen and (max-width: 768px) {
+  .product {
+    flex: 1 1 calc(50% - 16px); /* Hiển thị 2 sản phẩm mỗi hàng trên màn hình nhỏ */
+    max-width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product {
+    flex: 1 1 100%; /* Hiển thị 1 sản phẩm mỗi hàng trên màn hình điện thoại */
+    max-width: 100%;
+  }
+}
+
+/* Hộp tìm kiếm */
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#search-box {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#search-box:focus {
+  border-color: #ff0000;
+}
+
+/* Ẩn sản phẩm không khớp */
+.product.hidden {
+display: none;
+}
+
+/* Kiểu dáng cho modal */
+#product-modal {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.7); /* Màu nền đen mờ */
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 9999;
+}
+
+/* Kiểu dáng khung nội dung modal */
+.modal-content {
+background: #fff;
+border-radius: 10px;
+width: 600px;
+max-width: 90%;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+animation: fadeIn 0.3s ease-in-out;
+overflow: hidden;
+}
+
+/* Hiệu ứng mở popup */
+@keyframes fadeIn {
+from {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+/* Header */
+.modal-header {
+background: #000000;
+padding: 20px;
+color: #fff;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+border-radius: 10px 10px 0 0;
+}
+
+/* Phần thân */
+.modal-body {
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+/* Ảnh sản phẩm */
+.modal-body img {
+max-width: 150px;
+max-height: 150px;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Thông tin */
+.modal-info {
+flex: 1;
+font-size: 16px;
+color: #333;
+}
+
+/* Close button */
+.close-button {
+position: absolute;
+top: 10px;
+right: 15px;
+font-size: 25px;
+font-weight: bold;
+color: #000;
+cursor: pointer;
+}
+.close-button:hover {
+color: #f00;
+}
+
+
+/* Neon Gradient Text */
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #00e1ff, #00e1ff, #00e1ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(245, 4, 4, 0.8),
+    0 0 15px rgba(245, 4, 4, 0.8),
+    0 0 20px rgba(245, 4, 4, 0.8),
+    0 0 25px rgba(245, 4, 4, 0.8),
+    0 0 30px rgba(245, 4, 4, 0.8);
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+  }
+
+  to {
+    text-shadow: 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff;
+  }
+}
