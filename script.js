@@ -81,120 +81,120 @@ const productData = [
     title: "AMINPHOS",
     price: "KHOÁNG - VITAMIN TỔNG HỢP",
     image: "image/AMINPHOS_1LIT.CHAI.jpg",
-    functionality: "Cup cấp vi sinh có lợi, cân bằng men tiêu hóa đường ruột, tăng khả năng chuyển hóa các chất dinh dưỡng.",
-    usage: "Cho ăn định kỳ 5ml/1kg thức ăn, ngày 1 lần trong suốt vụ nuôi."
+    functionality: "Cung cấp khoáng chất và các acid amin cần thiết yếu cho tôm, cá phát triển tốt, bổ gan bổ máu, chống còi",
+    usage: "Tạt trực tiếp xuống ao 1L/1.000-2.000m3"
   },
   {
     title: "BENFIS.R",
     price: "DIỆT KHUẨN AO NUÔI",
     image: "image/BENFIS.R_2LIT.CAN.png",
-    functionality: "Bổ sung muối Acid Formic, ức chế vi khuẩn gây bệnh, ngăn ngừa bệnh đường ruột, tăng khả năng hấp thụ thức ăn",
-    usage: "Sử dụng định kỳ 5g/1kg thức ăn trong các bữa ăn hằng ngày cho tôm-cá."
+    functionality: "Tẩy ký sinh trùng Gregarine trong ruột tôm, cá. Ức chế và tiêu diệt nhanh vi khuẩn gây ra bệnh phân trăng trong ao nuôi.",
+    usage: "Dùng để phòng: 7 ngày 1 lần, 1 lần 1L/3.000m3. Dùng khi xuất hiện phân trắng: Liên tục sáng chiều 2 lần trong ngày, 1 lần 1L/2.000m3."
   },
   {
     title: "BEST",
     price: "DỊCH TỎI ĐEN",
     image: "image/BEST_1L.CHAI.jpg",
-    functionality: "Bổ sung lợi khuẩn và enzyme tiêu hóa, bổ sung các vi khuẩn có lợi, ức chế vi sinh có hại cho đường ruột, nâng cao khả năng tiêu hóa.",
-    usage: "Sử dụng 3-5ml/1kg thức ăn thường xuyên trong quá trình nuôi để ổn định đường ruột."
+    functionality: "Xử lý hoại tử cơ, đốm đỏ, vàng gan, sưng gan, nhiễm trùng. Ngừa phân trắng, phân lỏng, nhiễm khuẩn đường ruột.",
+    usage: "Sử dụng 2-5ml/1kg thức ăn thường xuyên trong quá trình nuôi để phòng bệnh. Khi tôm bệnh dùng liều gấp đôi."
   },
   {
     title: "BETA.PRO",
     price: "MEN TIÊU HÓA",
     image: "image/BETA.PRO_1LIT. CHAI.jpg",
-    functionality: "Bổ sung dưỡng chất, Tăng sức đề kháng cho tôm cá và động vật thủy sản.",
+    functionality: "Cung cấp vi sinh vật có lợi, cạnh tranh, ức chế vi khuẩn có hại. Tăng khả năng chuyển hóa thức ăn.",
     usage: "Dùng 2-5g/kg thức ăn, ngày 1 lần trong suốt vụ nuôi."
   },
   {
-    title: "BIO-FUCA",
-    price: "MEN TIÊU HÓA",
-    image: "image/BIO-FUCA_500G.jpg",
-    functionality: "Ức chế vi khuẩn gây bệnh, nông to đường ruột.",
-    usage: "Sử dụng thường xuyên trong suốt vụ nuôi 3-5g/1kg thức ăn giúp ổn định hệ tiêu hóa."
+    title: "BIO.ZYME",
+    price: "VI SINH XỬ LÝ TẢO",
+    image: "image/BIO.ZYME_500G. GÓI.jpg",
+    functionality: "BIO.ZYME là sản phẩm đặc biệt ức chế vi khuẩn có hại gây ra các bệnh về đường ruột, cải tạo nhanh môi trường, sạch nhớt áo bạt, ức chế vi sinh vật gây bệnh.",
+    usage: "Sử dụng 500g/5.000m3 trước khi thả tôm 3 ngày. "
   },
   {
-    title: "BKC 1 LIT",
-    price: "DIỆT KHUẨN - CẮT TẢO",
-    image: "image/BKC _1LIT.jpg",
-    functionality: "Diệt vi khuẩn trong ao nuôi, giảm hiện tượng đứt râu, mòn đuôi, đen mang, sưng mang, hồng mang, diệt tảo độc, tảo lam, tảo đỏ,...",
-    usage: "Giảm tảo, làm sạch váng nhớt dùng 1 lít/3.000m3 - Diệt khuẩn dùng 1 lít/2.000m3 - Định kỳ dùng 1 lít/3.000-5.000m3."
+    title: "BZT BACILLUS MAX",
+    price: "VI SINH SỬ LÝ ĐÁY AO CAO CẤP",
+    image: "image/BZT BACILLUS MAX_300G.GÓI.jpg",
+    functionality: "Chuyên gia xử lý đáy ao, làm giảm ngay nồng độ khí độc NH3, NO2, H2O,... khử mùi hôi trong ao nuôi.",
+    usage: "Sử dụng 300g/5.000m3 trước khi thả tôm 3 ngày."
   },
   {
-    title: "BKC 2 LIT",
-    price: "DIỆT KHUẨN - CẮT TẢO",
-    image: "image/BKC_2LIT.jpg",
-    functionality: "Diệt vi khuẩn trong ao nuôi, giảm hiện tượng đứt râu, mòn đuôi, đen mang, sưng mang, hồng mang, diệt tảo độc, tảo lam, tảo đỏ,...",
-    usage: "Giảm tảo, làm sạch váng nhớt dùng 1 lít/3.000m3 - Diệt khuẩn dùng 1 lít/2.000m3 - Định kỳ dùng 1 lít/3.000-5.000m3."
+    title: "BZT XL",
+    price: "VI SINH THẾ HỆ MỚI",
+    image: "image/BZT XL_300G.GÓI.jpg",
+    functionality: "Chuyên gia xử lý đáy ao, làm sạch bùn đen, sạch nhớt ao bạt. Phân hủy nhanh thức ăn dư thừa, ức chế vi sinh vật gây bệnh phát triển.",
+    usage: "Sử dụng 300g/5.000-10.000M3 trước khi thả tôm 3 ngày."
   },
   {
-    title: "BZT GOLDTIC",
-    price: "MEN VI SINH SỬ LÝ ĐÁY CAO CẤP",
-    image: "image/BZT GOLDTIC_300G.jpg",
-    functionality: "Triệt tiêu khí độc, làm sạch bùn đen đáy ao, phân hủy nhanh mùn bã hữu cơ.",
-    usage: "Sử dụng 300g/10.000m3 nước trước khi thả tôm 3 ngày."
+    title: "CLEAR SHR",
+    price: "XỬ LÝ NẤM - ĐỐM ĐEN",
+    image: "image/CLEAR SHR_1L.CHAI.jpg",
+    functionality: "Xử lý hiện tượng đốm đen, sát trùng nước trong ao nuôi tôm, ức chế vi sinh vật gây bệnh",
+    usage: "Dùng định kỳ: 1L/5.000m3 10 ngày 1 lần."
   },
   {
-    title: "BZT PONMAX",
-    price: "VI SINH SỬ LÝ ĐÁY CAO CẤP",
-    image: "image/BZT-PONMAX_300G.jpg",
-    functionality: "Làm sạch bùn đen đáy ao, sạch nhớt ao bạt,...",
-    usage: "Sử dụng 300g/7.000m3 nước trước khi thả tôm 3 ngày."
+    title: "FEN RS19",
+    price: "XỬ LÝ CÁC LOẠI NẤM ĐỘC",
+    image: "image/FEN RS19_1L.CHAI.jpg",
+    functionality: "Chuyên gia xử lý các loại nấm, giải pháp hữu hiệu với các bệnh loét mình, đen mang…..",
+    usage: "Dùng định kỳ: 1L/3.000-4.000m3 7 ngày đến 10 ngày 1 lần trong suốt quá trình nuôi."
   },
   {
-    title: "CALPHOS",
-    price: "KHOÁNG TỔNG HỢP CAO CẤP",
-    image: "image/CALPHOS_01LIT.jpg",
-    functionality: "Cung cấp khoáng chất cho sự phát triển chủa tôm, ngăn ngừa tình trạng ốp thân, mềm vỏ, cỏ xanh da trời,...",
-    usage: "Cho ăn 3-5ml/1kg thức ăn, ngày 1 lần."
+    title: "GAN-Z",
+    price: "GAN TẠT CAO CẤP",
+    image: "image/GAN-Z_1LIT.CHAI.jpg",
+    functionality: "Thảo dược giúp tái tạo, phục hồi nhanh các biểu mô gan tụy phòng ngừa các bệnh về gan. Hỗ trợ cải thiện sức khỏe, màu sắc gan tụy trong điều kiện thời tiết thay đổi, khắc phục hiện tượng gan yếu, gan xấu, vàng gan.",
+    usage: "Dùng định kỳ 1 lít cho 1.500-3.000m3 5 ngày một lần."
   },
   {
-    title: "CANXI FOOD",
-    price: "KHOÁNG ĂN CAO CẤP",
-    image: "image/CANXI FOOD_1KG.jpg",
-    functionality: "Cung cấp khoáng chất và vitamin cần thiết, giúp tôm nhanh lột xác, bóng vỏ, chắc vỏ,...",
-    usage: "Dùng 2-3g/1kg thức ăn, cho ăn liên tục đến khi thu hoạch."
-  },
-  {
-    title: "CITINPHOS 1 LÍT",
-    price: "KHOÁNG ĂN DẠNG NƯỚC CAO CẤP",
-    image: "image/CITINPHOS_1LIT.jpg",
-    functionality: "Bổ sung khoáng chất và vitamin thiết yếu, khắc phục tình trạng mềm vỏ, khó lột xác,....",
-    usage: "Dùng 3-5ml/1kg thức ăn, ngày 1 lần. Tạt trức tiếp dùng 1 lít/2.000-3.000m3 nước."
-  },
-  {
-    title: "CITINPHOS 5 LÍT",
-    price: "KHOÁNG ĂN DẠNG NƯỚC CAO CẤP",
-    image: "image/CITINPHOS_5LIT.jpg",
-    functionality: "Bổ sung khoáng chất và vitamin thiết yếu, khắc phục tình trạng mềm vỏ, khó lột xác,....",
-    usage: "Dùng 3-5ml/1kg thức ăn, ngày 1 lần. Tạt trức tiếp dùng 1 lít/2.000-3.000m3 nước."
-  },
-  {
-    title: "ECO ZYME",
-    price: "MEN TIÊU HÓA CAO CẤP",
-    image: "image/ECO-ZYME_500G.jpg",
-    functionality: "Bổ sung Protease và Arginine vào thức ăn thủy sản, giúp tăng cường khả năng tiêu hóa và hấp thụ thức ăn,...",
-    usage: "Dùng 3-5g/1kg thức ăn. Giai đoạn thúc lớn, cho ăn liều gấp đôi."
-  },
-  {
-    title: "HEPA PHOTICS",
+    title: "HEPA VIRO",
     price: "BỔ GAN CAO CẤP",
-    image: "image/HEPA PHOTICS_500G.jpg",
-    functionality: "Bổ sung Vitamin cần thiết cho tủy vật nuôi, tăng cường khả năng sinh trưởng và phát triển của tôm-cá, tăng cường chức năng gan tụy trên tôm.",
-    usage: "Dùng 3-5g/1kg thức ăn."
+    image: "image/CANXI FOOD_1KG.jpg",
+    functionality: "Giải độc gan, tăng cường chức năng gan tụy. Kích thích tôm ăn mạnh, chống còi. Khống chế các loại vi khuẩn, virus như vi bào tử, ký sinh trùng...",
+    usage: "Định kỳ: Dùng 2-5g/kg thức ăn, cho ăn mỗi ngày một cữ, liên tục cho đến hết vụ nuôi."
   },
   {
-    title: "HEPA GO",
-    price: "BỔ GAN - GIẢI ĐỘC GAN",
-    image: "image/HEPA-GO_500G.jpg",
-    functionality: "Bổ gan, giải độc gan tụy và ổn định chức năng gan, ức chế sự hủy hoại của tế bào gan,....",
-    usage: "Dùng định kỳ bổ dung 3-5g/1kg thức ăn trong suốt vụ nuôi."
+    title: "LACTOMIN",
+    price: "MEN TIÊU HÓA CAO CẤP",
+    image: "image/LACTOMIN_500G.LON.png",
+    functionality: "Cung cấp chất dinh dưỡng cần thiết cho sự sinh trưởng và phát triển của tôm-cá. Tăng sức kháng bệnh, giảm hàm lượng đạm thừa trong phân, không gây ô nhiễm môi trường nước.",
+    usage: "Sử dụng định kỳ, bổ sung 3-4g/kg thức ăn trong suốt vụ nuôi."
   },
   {
-    title: "HI TECH",
-    price: "SẠCH ĐỐM ĐEN - SẠCH KHUẨN GÂY BỆNH",
-    image: "image/HI TECH_1LIT.jpg",
-    functionality: "Xử lý và sát trung nước trong ao tôm, cá. Tiêu diệt virus, vi khuẩn gây bệnh trên tôm cá,...",
-    usage: "Dùng định kỳ: 1 lít/4.000m3 nước, ngày 1 lần"
+    title: "LIVER-URA",
+    price: "GAN THẢO DƯỢC",
+    image: "image/LIVER-URA_1LIT.CHAI.jpg",
+    functionality: "Bổ gan, giải độc gan tụy và ổn định chức năng gan. Ức chế sự hủy hoại tế bào gan, cải thiện nhanh sự suy giảm chức năng gan và các triệu chứng sưng gan, teo gan, vàng gan.",
+    usage: "Dùng định kỳ 3-5ml/kg thức ăn ngày 2 lần trong suốt vụ nuôi."
+  },
+  {
+    title: "MEGA.3",
+    price: "MEN TIÊU HÓA",
+    image: "image/MEGA.3_500G.HŨ.jpg",
+    functionality: "Bổ sung men tiêu hóa trong bữa ăn cho tôm cá hàng ngày, tăng sức đề kháng, ức chế các loại vi khuẩn có hại, tạo chuỗi vi sinh có lợi cho hệ tiêu hóa.",
+    usage: "Sử dụng thường xuyên trong suốt quá trình nuôi 3-5g/kg thức ăn giúp ổn định hệ tiêu hóa."
+  },
+  {
+    title: "ONEMIX5",
+    price: "KHOÁNG ĐA VI LƯỢNG",
+    image: "image/ONEMIX5_5KG.GÓI.jpg",
+    functionality: "Bổ sung khoáng chất cần thiết cho tôm cá, giúp tôm cá tăng trưởng nhanh, tăng năng suất. Xử lý triệu chứng cong thân, đục thân, xanh da trời, ốp vỏ, mềm vỏ kinh niên.",
+    usage: "Xử lý cong thân: tạt 2kg/1.000m³ nước, định kỳ 2-3 ngày một lần."
+  },
+  {
+    title: "ONEMIX10",
+    price: "KHOÁNG ĐA VI LƯỢNG",
+    image: "image/ONEMIX10_10KG.BAO.jpg",
+    functionality: "Bổ sung khoáng chất cần thiết cho tôm cá, giúp tôm cá tăng trưởng nhanh, tăng năng suất. Xử lý triệu chứng cong thân, đục thân, xanh da trời, ốp vỏ, mềm vỏ kinh niên.",
+    usage: "Xử lý cong thân: tạt 2kg/1.000m³ nước, định kỳ 2-3 ngày một lần."
+  },
+  {
+    title: "VITAMINO",
+    price: "VITAMIN TỔNG HỢP",
+    image: "image/VITAMINO_1LIT. CHAI.jpg",
+    functionality: "Tăng cường quá trình trao đổi chất, hỗ trợ quá trình tăng trưởng và phát triển của tôm, cá. Bồi bổ nhanh sức khỏe, làm tăng khả năng miễn dịch, ngăn ngừa các loại bệnh.",
+    usage: "Tạt trực tiếp xuống ao nuôi 1 lít/3.000m3 nước khi tôm yếu do thời tiết thay đổi đột ngột. Tạt trực tiếp xuống ao nuôi 1 lít/2.000m3 nước khi sang tôm hoăc thu tỉa tôm trước 2 giờ."
   },
   {
     title: "IODINE 99",
