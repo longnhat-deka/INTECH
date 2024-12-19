@@ -197,81 +197,81 @@ const productData = [
     usage: "Tạt trực tiếp xuống ao nuôi 1 lít/3.000m3 nước khi tôm yếu do thời tiết thay đổi đột ngột. Tạt trực tiếp xuống ao nuôi 1 lít/2.000m3 nước khi sang tôm hoăc thu tỉa tôm trước 2 giờ."
   },
   {
-    title: "IODINE 99",
-    price: "DIỆT KHUẨN NẤM VÀ BÀO TỬ TRÙNG",
-    image: "image/IODINE 99_1LIT.jpg",
-    functionality: "Sát trùng phổ rộng, diệt khuẩn cực mạnh, tiêu diệt vi khuẩn có hại, nấm nguyên sinh động vật,....",
-    usage: "Dùng định kỳ 1 lít/3.000-5.000m3 nước, 7-10 ngày/lần cho ao nuôi "
+    title: "HEP BOGA",
+    price: "BỔ GAN CAO CẤP",
+    image: "image/HEP BOGA.jpg",
+    functionality: "Bổ gan, giải độc gan tụy và ổn định chức năng gan. Ức chế sự hủy hoại tế bào gan, cải thiện nhanh sự suy giảm chức năng gan và các triệu chứng sưng gan, teo gan, vàng gan.",
+    usage: "Dùng định kỳ bổ sung 3-5g/kg thức ăn trong suốt vụ nuôi. Khi tôm giảm ăn, nằm trong vùng dịch hay có dấu hiệu bệnh dùng liều gấp đôi."
   },
   {
-    title: "LIVER PHOTICS",
-    price: "SÁT TRÙNG - DIỆT KHUẨN",
-    image: "image/LIVER PHOTICS_1L.jpg",
-    functionality: "Sát trùng phổ rộng, diệt khuẩn cực mạnh, tiêu diệt vi khuẩn có hại, nấm nguyên sinh động vật,....",
-    usage: "Bảo vệ hệ tiêu hóa và chức năng gan cho tôm cá."
+    title: "MEN VS",
+    price: "MEN VI SINH",
+    image: "image/MEN_VS_1KG.jpg",
+    functionality: "Giúp ổn định màu nước, kiểm soát tảo độc, ổn định  pH. Cung cấp hệ vi sinh có lợi cho đường ruột. Ức chê vi sinh vật gây bệnh phát triển.",
+    usage: "Sử dụng 500g MEN VS và 5kg mật rỉ đường hoặc 3kg đường nâu/cát pha đều trong 100l nước sạch trong phuy nhựa, đậy nắp, ủ trong thời gian từ 1-2 ngày (sục khí nếu có), sau đó để tĩnh và sử dụng dần trong thời gian 1 tháng."
   },
   {
-    title: "MIX ONE PRO",
-    price: "KHOÁNG TỎI",
-    image: "image/MIX ONE PRO (KH - TỎI) 5KG,10kg.jpg",
-    functionality: "Giúp ổn định môi trường, giữ ấm cho cơ thể lúc nhiệt độ xuống thấp, dễ dàng hấp thụ, cung cấp khoáng chất cần thiết cho tôm trng quá trình lột xác.",
-    usage: "Dùng định kỳ 5kg cho 3.000-5.000m3 nước."
+    title: "PA RA",
+    price: "GIẢM KHÍ ĐỘC",
+    image: "image/PARA_20L.jpg",
+    functionality: "triệt tiêu khí độc trong 30 phút sau khi sử dụng",
+    usage: "Hàm lượng ≤ 5ppm, dùng 2 lít PA.RA cho 2.000m3 nước. Hàm lượng > 5ppm, dùng 2 lít PA.RA cho 1.000m3 nước."
   },
   {
-    title: "ORGANs1",
-    price: "GAN TẠT CAO CẤP",
-    image: "image/ORGANs1_01LIT.jpg",
-    functionality: "Tái tạo tế bào gan, tăng chức năng gan tụy",
-    usage: "Dùng 3-5ml/1kg thức ăn cho ăn ngày 1 lần trong suốt vụ nuôi."
+    title: "GO MIX",
+    price: "KHOÁNG TĂNG KIỀM",
+    image: "image/GO_MIX_10KG.jpg",
+    functionality: "GO-MIX tăng kiềm nhanh, giúp tôm nhanh cứng vỏ, kháng bệnh tốt. Ổn định môi trường vào mùa mưa, cân bằng hệ sinh thái trong ao nuôi, thuận lợi cho vi sinh vật có lợi phát triển.",
+    usage: "Sử dụng GO-MIX 10kg cho 3.000- 5.000 m³. Định kỳ 5-7 ngày một lần."
   },
   {
-    title: "PREMIX",
-    price: "SIÊU KHOÁNG",
+    title: "YUCCA JORA",
+    price: "TRUNG HÒA KHÍ ĐỘC",
     image: "image/PREMIX_10KG.jpg",
     functionality: "Bổ sung khoáng chất giúp tôm lột xác, cứng vỏ.",
     usage: "Sử dụng 10kg/5.000-7.000m3, định kỳ 7-10 ngày một lần."
   },
   {
-    title: "S4000",
-    price: "XỬ LÝ CÁC LOẠI NẤM",
-    image: "image/S4000_1LÍT.jpg",
-    functionality: "Xử lý các loại nấm trong ao (Nấm đồng tiền, nấm chân chó), loại bỏ đóng rong, đóng nhớt, đen mang trên tôm cá,...",
-    usage: "Dùng định kỳ 1 lít cho 3.000-4.000m3 nước."
+    title: "WINFIS.G",
+    price: "XỬ LÝ KHUẨN GÂY HỘI CHỨNG GAN TỤY TRÊN TÔM",
+    image: "image/WINFIS.G_1L.jpg",
+    functionality: "ngăn ngừa hội chứng chết sớm ở tôm giai đoạn 14 đến 60 ngày tuổi. Hiệu quả cao với hiện tượng hoại tử gan tụy, sưng gan, vàng gan, bộng nước ở gan, teo gan.",
+    usage: "Dùng định kỳ: 1l WINFIS.G cho 2.000-3.000m³ nước, 7 ngày một lần."
   },
   {
-    title: "SODA MAX",
-    price: "KHOÁNG TĂNG KIỀM",
-    image: "image/SODA MAX_05KG.jpg",
-    functionality: "Tăng kiềm, ổn định độ pH trong ao, giúp tôm nahnh cứng vỏ, kháng bệnh tốt,...",
-    usage: "Dùng 5kg cho 3.000-5000m3 nước, định kỳ 5-7 ngày 1 lần."
+    title: "BENFIS.R",
+    price: "DIỆT KHUẨN AO NUÔI",
+    image: "image/BENFIS.R_1L.jpg",
+    functionality: "Tẩy ký sinh trùng Gregarine trong ruột tôm, cá. Ức chế và tiêu diệt nhanh vi khuẩn gây ra bệnh phân trắng trong ao nuôi tôm.",
+    usage: "Dùng phòng trong quá trình nuôi định kỳ 7 ngày lần 1lit/3.000m3."
   },
   {
-    title: "SUPER CUT ALGAR",
-    price: "CẮT TẢO XANH, TẢO ĐỎ",
-    image: "image/SUPER CUT ALGAR_500G.jpg",
-    functionality: "Diệt tảo xanh, hạn chế sự phát triển của tảo và rong rêu trong ao nuôi. Sản phẩm cắt tảo theo cơ chế sinh học không gây sốc cho tôm.",
-    usage: "Dùng định kỳ để giảm bớt tảo già và sạch nước: 500g/3.000-5.000m3 nước, 7 ngày 1 lần vào lức 9-10h sáng."
+    title: "ENVIC - XLR1 II",
+    price: "VI SINH XỬ LÝ RÁC THẢI",
+    image: "image/ENVIC-XLR1.jpg",
+    functionality: "Đẩy nhanh quá trình phân hủy phân gia súc, gia cầm, rác hữu cơ nhờ vi sinh vật. Giảm sinh ra các khí gây mùi từ quá trình phân hủy chất thải chuồng trại, bãi rác như: NH3, mercaptan, rác hữu cơ phân hủy.",
+    usage: "Pha với nước sạch tỷ lệ 1:20 với mức ô nhiễm thông thường và 1:10 đối với mức ô nhiễm nặng."
   },
   {
-    title: "SUPER GOLD",
+    title: "AMINPHOS",
     price: "DIỆT KHUẨN TRÊN GAN TỤY",
-    image: "image/SUPER GOLD_1LIT.jpg",
-    functionality: "Ngăn ngừa hội chứng chết sớm ở tôm giai đoạn 14 đến 60 ngày tuổi, hiệu quả cao với hiện tượng hoại tử gan tụy, sưng gan,...",
-    usage: "Dùng 1 lít cho 3.000-4.000m3 nước, liên tục 2 ngày."
+    image: "image/AMINPHOS_5L.jpg",
+    functionality: "Cung cấp khoáng chất và các acid amin cần thiết yếu cho tôm, cá phát triển tốt, bổ gan bổ máu, chống còi",
+    usage: "Tạt trực tiếp xuống ao 1L/1.000-2.000m3"
   },
   {
-    title: "SUPER GROW",
-    price: "TĂNG TRỌNG - TĂNG CƯỜNG MIỄN DỊCH",
-    image: "image/SUPER GROW_1 LIT.jpg",
-    functionality: "Bổ sung vitamin cần thiết cho tôm cá, tăng cường sức đề kháng, hỗ trợ và thức đẩy sự phát triển cho đàn thủy sản,...",
-    usage: "Cho ăn định kỳ 5-7ml/1kg thức ăn, ngày 1 lần."
+    title: "PA RA 5L",
+    price: "GIẢM KHÍ ĐỘC",
+    image: "image/PARA_5L.jpg",
+    functionality: "triệt tiêu khí độc trong 30 phút sau khi sử dụng",
+    usage: "Hàm lượng ≤ 5ppm, dùng 2 lít PA.RA cho 2.000m3 nước. Hàm lượng > 5ppm, dùng 2 lít PA.RA cho 1.000m3 nước."
   },
   {
-    title: "THIO MAX",
-    price: "KHỬ KIM LOẠI NẶNG - KHỬ ĐỘC NƯỚC",
-    image: "image/THIO MAX_01KG.jpg",
-    functionality: "Khử kim loại nặng tồn dư trong ao nuôi, khử độc nước. Giúp tôm nhanh lột xác.",
-    usage: "Xử lý định kỳ: 1kg/3.500-4.000m3 nước, 5-7 ngày 1 lần."
+    title: "C.TRIS",
+    price: "GIẢI ĐỘC NƯỚC - KHỬ KIM LOẠI NẶNG",
+    image: "image/C.TRIS_5L.jpg",
+    functionality: "Lắng đọng các chất hữu cơ, phù sa, xác tảo tàn lơ lửng trong ao nuôi.",
+    usage: "Dùng định kỳ 1lít/2.000m3, 7-10 ngày một lần."
   },
   {
     title: "VITA MILK",
